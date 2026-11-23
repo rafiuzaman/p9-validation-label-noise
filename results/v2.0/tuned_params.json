@@ -1,0 +1,74 @@
+{
+ "NSL-KDD": {
+  "LR": {
+   "logisticregression__C": 10.0
+  },
+  "RF": {
+   "max_features": 0.5,
+   "min_samples_leaf": 1,
+   "n_estimators": 300
+  },
+  "XGB": {
+   "learning_rate": 0.1,
+   "max_depth": 6
+  },
+  "LGBM": {
+   "learning_rate": 0.1,
+   "num_leaves": 63
+  }
+ },
+ "UNSW-NB15": {
+  "LR": {
+   "logisticregression__C": 1.0
+  },
+  "RF": {
+   "max_features": "sqrt",
+   "min_samples_leaf": 2,
+   "n_estimators": 300
+  },
+  "XGB": {
+   "learning_rate": 0.05,
+   "max_depth": 8
+  },
+  "LGBM": {
+   "learning_rate": 0.05,
+   "num_leaves": 63
+  }
+ },
+ "CICIDS2017": {
+  "LR": {
+   "logisticregression__C": 10.0
+  },
+  "RF": {
+   "max_features": "sqrt",
+   "min_samples_leaf": 2,
+   "n_estimators": 100
+  },
+  "XGB": {
+   "learning_rate": 0.05,
+   "max_depth": 8
+  },
+  "LGBM": {
+   "learning_rate": 0.05,
+   "num_leaves": 15
+  }
+ },
+ "CICIoT2023": {
+  "LR": {
+   "logisticregression__C": 10.0
+  },
+  "RF": {
+   "max_features": 0.5,
+   "min_samples_leaf": 1,
+   "n_estimators": 300
+  },
+  "XGB": {
+   "learning_rate": 0.05,
+   "max_depth": 4
+  },
+  "LGBM": {
+   "learning_rate": 0.05,
+   "num_leaves": 31
+  }
+ }
+}
